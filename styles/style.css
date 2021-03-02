@@ -25,4 +25,20 @@ k{
 span{
   color: #562EFF;
 }
-
+.checked {
+    color: orange;
+  }
+  .text{
+      color:#AEAEAE;
+      ;
+  }
+  .hight p{
+      color:  #FF4A60;
+  }
+  .hight{
+      height: 20px;
+      width: 70px;
+      background-color: #FFE4E8;
+      border-radius: 15px;
+  }
+  

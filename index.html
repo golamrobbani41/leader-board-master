@@ -6,6 +6,8 @@
     <title>Leader board</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -45,7 +47,7 @@
 </header>
 
 <main class="mx-auto">
-  <section class="container-fluid top-player mt-5">
+  <section class="container-fluid top-player mt-5 ">
     <h3 class="heading-color">Top Player</h3>
     <div class="row">
       <div class="col-md-4 col-sm-6 player p-3 d-flex align-items-center">
@@ -75,36 +77,41 @@
     </div>
   </section>
 
-practice
+
   <hr>
+
 
 <section class="container-fluid top-blog  mt-5">
 <h3 class="heading-color">Top Blog</h3>
 <div class="row">
-  <div class="blog col-md-6 p-2 d-flex justify-content-around">
-    <img src="image/blogs/blog1.png" alt="">
+  <div class="blog p-2 mr-0 mr-md-4 d-flex flex-column flex-sm-row flex-md-row align-items-center">
+    <div>
+      <img  src="image/blogs/blog1.png" alt="">
+    </div>
     <div class="pl-3">
       <h3>13 of My Favorite<br>UI/UX Goodies</h3>
       <k>By <span>Danny Sapio</span></k>
     </div>
   </div>
-  <div class="blog col-md-6 p-2 d-flex justify-content-around">
-    <img src="image/blogs/blog2.png" alt="">
+  <div class="blog p-2 d-flex flex-column flex-sm-row flex-md-row align-items-center">
+    <div>
+      <img src="image/blogs/blog2.png" alt="">
+    </div>
     <div class="pl-3">
       <h3>UI cheat sheet:<br>list vs grids</h3>
       <k>By <span>Tess Gadd</span></k>
     </div>
   </div>
 </div>
-  <div class="row">
-  <div class="blog col-md-6 p-2 d-flex justify-content-around">
-    <img src="image/blogs/blog3.png" alt="">
+<div class="row">
+  <div class="blog  p-2 d-flex flex-column flex-sm-row flex-md-row align-items-center">
+    <img  src="image/blogs/blog3.png" alt="">
     <div class="pl-3">
       <h3>7 typography tips<br>for interface design</h3>
       <k>By<span>Jeremiah Lam</span></k>
     </div>
   </div>
-  <div class="blog col-md-6 p-2 d-flex justify-content-around">
+  <div class="blog p-2 d-flex flex-column flex-sm-row flex-md-row align-items-center">
     <img src="image/blogs/blog4.png" alt="">
     <div class="pl-3">
       <h3>Your logo is<br>copied</h3>
@@ -113,6 +120,79 @@ practice
   </div>
 </div>
 </section>
+
+
+<section class="container-fluid lates-courses mt-5  bg-white">
+  <h3 class="heading-color">Lates Courses</h3>
+  <div class="card-deck">
+    <div class="card">
+      <img src="Image/cources/cource1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h6>React - The Complete <br> Guide 2020</h6>
+        <p class="text-danger">Reed Krakoff</p>
+        <div class="d-flex justify-content-between">
+          <div class="text-muted">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star text"></span>  4.5</div>
+          <div class= "hight d-flex justify-content-between ">
+            <img class="img-fluid" src="Icon/clock.png" alt="">
+            <p>
+              1.30 hr
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Image/cources/cource2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h6>Powerpoint 2020 <br> Master Powerpoint Cour</h6>
+        <p class="text-danger">Walter Scott</p>
+        <div class="d-flex justify-content-between">
+          <div class="text-muted">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star text"></span>  4.5</div>
+          <div class= "hight d-flex justify-content-between ">
+            <img class="img-fluid" src="Icon/clock.png" alt="">
+            <p>
+              1.30 hr
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Image/cources/cource3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+          <h6>The Complete JavaScript <br> Course 2020</h6>
+          <p class="text-danger">Reed Krakoff</p>
+          <div class="d-flex justify-content-between">
+            <div >
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star text"></span>  4.5</div>
+            <div class= "hight d-flex justify-content-between ">
+              <img class="img-fluid" src="Icon/clock.png" alt="">
+              <p>
+                1.30 hr
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
   
 </main>
 
